@@ -1,0 +1,10 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#drop_zone {
+    width: 400px;
+    height: 300px;
+    border: dashed 2px #999;
+}
