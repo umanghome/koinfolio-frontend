@@ -19,7 +19,7 @@ function parseCsv(csv) {
       'message': 'The file is empty.'
     }
   }
-  var fileType = 'unknown';
+  let fileType = 'unknown';
   // Determines if the file is of wallet transactions, by searching for "Quantity" string.
   if (csv.indexOf('Quantity') > -1) {
     fileType = 'order'
